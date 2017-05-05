@@ -1,0 +1,15 @@
+c:\users\hmcmonigle4\documents\visual studio 2015\Projects\Character Creator\Character Creator\bin\Debug\Character Creator.exe.config
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\bin\Debug\Character Creator.exe
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\bin\Debug\Character Creator.pdb
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\bin\Debug\MySql.Data.dll
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\obj\Debug\Character Creator.csprojResolveAssemblyReference.cache
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\obj\Debug\CharCreator.g.cs
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\obj\Debug\App.g.cs
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\obj\Debug\Character Creator_MarkupCompile.cache
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\obj\Debug\Character Creator_MarkupCompile.lref
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\obj\Debug\CharCreator.baml
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\obj\Debug\Character Creator.g.resources
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\obj\Debug\Character_Creator.Properties.Resources.resources
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\obj\Debug\Character Creator.csproj.GenerateResource.Cache
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\obj\Debug\Character Creator.exe
+C:\Users\hmcmonigle4\Documents\Visual Studio 2015\Projects\Character Creator\Character Creator\obj\Debug\Character Creator.pdb
