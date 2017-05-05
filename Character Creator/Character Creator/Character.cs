@@ -8,6 +8,9 @@ namespace Character_Creator
 {
     class Character
     {
+        //As the character only needs to be protected as long as it takes to send the information to the database,
+        //I felt it would be satisfactory to make the fields public and modify them directly as opposed to creating
+        //getters and setters for all of them.
         public string Name;
         public string Type;
         public string Species;
@@ -18,11 +21,13 @@ namespace Character_Creator
         public string Notes;
         public short S, P, E, C, I, A, L;
 
+        //default constructor
         public Character()
         {
 
         }
 
+        //constructor directly setting all of the data at once.
         public Character(string nm, string type, string spcs, float age, string nbhd, string aprnc, string prsnlty, string notes, short s, short p, short e, short c, short i, short a, short l)
         {
             this.Name = nm;

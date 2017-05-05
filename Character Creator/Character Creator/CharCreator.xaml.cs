@@ -27,12 +27,7 @@ namespace Character_Creator
             InitializeComponent();
         }
 
-        private string sqlSafe(string s)
-        {
-            string newstring = "";
-            return newstring;
-        }
-
+        //fill newchar's fields with information from the form.
         private void makeNewChar()
         {
             newchar = new Character();
@@ -70,6 +65,7 @@ namespace Character_Creator
             }
         }
 
+        //activated on selection of the Send button.
         private void button_Click(object sender, RoutedEventArgs e)
         {
             DBConnect db = new DBConnect();
@@ -78,6 +74,7 @@ namespace Character_Creator
 
             if (newchar.Age > 0 && newchar.S + newchar.P + newchar.E + newchar.C + newchar.I + newchar.A + newchar.L <= 42)
             {
+                //If the Age and Special values are valid, send the character to the database.
                 db.Insert(newchar);
             }
             else
@@ -86,13 +83,16 @@ namespace Character_Creator
             }
         }
 
+        //Loads a character based on the name entered in the name field on the form. Sends the data to the form text boxes.
         private void Load_Click(object sender, RoutedEventArgs e)
         {
             DBConnect db = new DBConnect();
 
+            //get a list of data from each character found.
             List<string>[] results = db.Select(name.Text);
             try
             {
+                //fill the text boxes with the information on the first character found.
                 name.Text = results[1].ElementAt<string>(0);
                 type.Text = results[2].ElementAt<string>(0);
                 species.Text = results[3].ElementAt<string>(0);

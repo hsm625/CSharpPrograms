@@ -7,6 +7,9 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
+//the following is a set of functions that are essential for connecting to and interacting with
+//a database. Some of the functions here are not used in this program. However, I elected to
+//keep them as a reference and so that I can easily have them available for other projects.
 namespace Character_Creator
 {
     class DBConnect
@@ -16,7 +19,7 @@ namespace Character_Creator
         private string database; //the name of the database
         private string uid; //MySQL username
         private string password; //MySQL password
-        private string tablename;
+        private string tablename; //name of the table in the database
 
         //constructor
         public DBConnect()
